@@ -1,0 +1,124 @@
+/* Format Body's Margin*/
+body{
+    margin: 0px;
+    background-color: #F0F8FF;
+}
+/* Making the Menu Bar Fixed*/
+.menuBar{
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    
+}
+.menuBar, .dropdownMenu{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background: #DC143C;
+    
+    
+}
+/* Formatting menu bar cells*/
+.menuCell, .dropdownCell{
+    text-align: center;
+    line-height: 70px;
+    width: 13%;
+    height: 70px;
+    font-size: 25px;
+    float: left;
+    border-right:1px solid #bbb;
+    background-color: #DC143C;
+    cursor: pointer;
+    font-family: 'Courier';   
+    color: white;
+}
+
+/* making the last icon special */
+.menuCell:last-child{
+    float:right;
+    background-color: darkred
+}
+/* Hiding drop down cells when not hovered */
+.dropdownCell{
+    width: 100%;
+    font-size: 14px;
+    display: none;
+    padding: 8px;
+}
+/*Changing the colour of the cell when hovered over*/
+.menuCell:hover, .dropdownCell:hover{
+    background-color: #800000;
+}
+/* showing the drop-down list when hovering */
+.menuCell:hover .dropdownCell{
+    display: block;
+}
+/* removing the default hyperlink formatting */
+.link{
+    text-decoration: none;
+    display: block;
+}
+.link:link, .link:visited{
+    color: white;
+}
+/* lowering the content under the menu bar */
+.main{
+    margin-top: 60px;
+}
+/* making big and small sizes for font */
+.bigSize{
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 50px;
+    font-family: 'Courier';
+    color: #000000;
+}
+.smallSize{
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    width: 570px;
+    font-family: 'Courier';
+    color: #000000;
+}
+/* centering the iframe */
+#map{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* formatting form elements */
+.field{
+    font-size: 30px;
+    width: 450px;
+}
+/* centering image */
+.image{ 
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerStuff{
+    padding-bottom: 0px; 
+    padding-top: 0  px;
+    background-color: #DC143C;
+    }
+.fab fa-facebook-f fa-2x w3-hover-opacity{
+    align-self: center;
+}
+
+/* positioning CSS Code*/
+#cssCode{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    font-size: 20px;
+    width: 500px;
+    color: #00000;
+}
